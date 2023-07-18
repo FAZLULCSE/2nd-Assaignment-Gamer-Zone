@@ -92,8 +92,20 @@ header{
     font-size: 20px;
     font-weight: 600;
     border-radius: 50px;
-    margin-right: 20px;
     margin-top: 41px;
+    border: none;
+}
+
+.btn-2{
+    padding: 21px 40px;
+    background-color: #4EC5F7;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 50px;
+    margin-left: 20px;
+    margin-top: 41px;
+    border: none;
 }
 .banner-container-2{
     width: 1920px;
@@ -106,4 +118,32 @@ header{
 }
 .babnner-photo-2{
     padding: 24px 0;
+}
+.banner-text-2{
+    text-align: right;
+    width: 520px;
+}
+.banner-text-2 > h1{
+    font-size: 48px;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.discription{
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.openion{
+    color: #534C64;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 45px;
+    margin-top: 24px;
+}
+.openion-text{
+    font-size: 32px;
 }
