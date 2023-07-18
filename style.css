@@ -1,0 +1,57 @@
+/* work sans font */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,300;1,400;1,900&family=Open+Sans:wght@300;400;500;600;700;800&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,600;1,800&display=swap');
+
+*{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+}
+:root{
+    --primary-color: #FF42A5; 
+}
+header{
+    width: 1920px;
+    height: 130px;
+    margin: 0 auto;
+    padding: 32px 240px;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+
+}
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navpart-1{
+    display: flex;
+}
+
+.navpart-1 > h1{
+    font-size: 45px;
+    font-weight: 700;
+    margin-left: 1rem;
+}
+
+.G{
+    color: var(--primary-color);
+}
+.navpart-2{
+    display: flex;
+    align-items: center;
+}
+.nav-ul > ul{
+    display: flex;
+}
+.nav-ul li{
+    list-style: none;
+    margin-right: 32px;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+.bgc{
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 24px;
+}
