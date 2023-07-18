@@ -32,7 +32,7 @@ header{
 }
 
 .navpart-1 > h1{
-    font-size: 45px;
+    font-size: 2.8rem;
     font-weight: 700;
     margin-left: 1rem;
 }
@@ -72,7 +72,7 @@ header{
     font-weight: 600;
 }
 .banner-head{
-    font-size: 95px;
+    font-size: 5.9375rem;
     font-weight: 800;
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
@@ -121,8 +121,8 @@ header{
     text-align: right;
     width: 520px;
 }
-.banner-text-2 > h1, .V-g-Head > span{
-    font-size: 48px;
+.banner-text-2 > h1, .V-g-Head > span, .movie-text > h2 > span{
+    font-size: 3rem;
     font-weight: 700;
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
@@ -137,13 +137,13 @@ header{
 }
 .openion{
     color: #534C64;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 500;
     line-height: 45px;
     margin-top: 24px;
 }
 .openion-text{
-    font-size: 32px;
+    font-size: 2rem;
 }
 .vedio-gallary{
     text-align: center;
@@ -166,15 +166,35 @@ header{
     gap: 1.5rem;
 }
 
+
 .image{
     width: 21.375rem;
-    margin-top: 48px;
+    margin-top: 3rem;
 }
-.image > img:hover{
-    
+.image > img:hover {
+    opacity: 0.3;
 }
+.movie{
+    display: flex;
+    padding: 20px 240px 0px;
+    justify-content: right;
+    align-items: center;
 
-
+}
+.movie-text{
+    text-align: right;
+    margin-right: 265px;
+}
+.movie-text > h2{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+}
+.small-pic{
+    position: relative;
+    bottom: 300px;
+    left: -150px;
+}
 
 /* responsive Media Query */
 /* Mobile Devices  */
@@ -185,11 +205,14 @@ header{
 
     }
 
-    .nav-container, .navpart-2, .banner-container-2 {
+    .nav-container, .navpart-2, .banner-container-2, .vedio-container {
         flex-direction: column;
     }
     .banner-container{
         flex-direction: column-reverse;
+    }
+    .image{
+        width: 100%;
     }
   
     
