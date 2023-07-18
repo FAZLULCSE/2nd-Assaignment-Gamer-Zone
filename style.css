@@ -7,14 +7,16 @@
     font-family: 'Work Sans', sans-serif;
     margin: 0;
 }
+body{
+    width: 1920px;
+    margin: 0 auto;
+}
 :root{
     --primary-color: #FF42A5; 
 
 }
 header{
-    width: 1920px;
     height: 130px;
-    margin: 0 auto;
     padding: 32px 240px;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 
@@ -57,9 +59,7 @@ header{
     padding: 24px;
 }
 .banner-container{
-    width: 1920px;
     display: flex;
-    margin: 0 auto;
     padding: 20px 240px 0px;
     background-image: url('images/Group\ 14.png');
     background-repeat: no-repeat;
@@ -108,9 +108,7 @@ header{
     border: none;
 }
 .banner-container-2{
-    width: 1920px;
     display: flex;
-    margin: 0 auto;
     padding: 20px 240px 0px;
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
     justify-content: space-between;
@@ -146,4 +144,29 @@ header{
 }
 .openion-text{
     font-size: 32px;
+}
+
+/* responsive Media Query */
+/* Mobile Devices  */
+@media screen and (max-width:576px) {
+    body{
+        width: 100%;
+        padding: 20px;
+
+    }
+
+    .nav-container, .navpart-2, .banner-container-2 {
+        flex-direction: column;
+    }
+    .banner-container{
+        flex-direction: column-reverse;
+    }
+  
+    
+ 
+}
+
+/* tablet */
+@media screen and (min-width:576px) and (max-width:922px) {
+    
 }
