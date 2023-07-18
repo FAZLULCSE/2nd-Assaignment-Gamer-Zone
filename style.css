@@ -121,7 +121,7 @@ header{
     text-align: right;
     width: 520px;
 }
-.banner-text-2 > h1{
+.banner-text-2 > h1, .V-g-Head > span{
     font-size: 48px;
     font-weight: 700;
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
@@ -145,6 +145,36 @@ header{
 .openion-text{
     font-size: 32px;
 }
+.vedio-gallary{
+    text-align: center;
+    margin-top: 120px;
+}
+.V-g-Head{
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+}
+.vedio-gallary > p{
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.vedio-container{
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.image{
+    width: 21.375rem;
+    margin-top: 48px;
+}
+.image > img:hover{
+    
+}
+
+
 
 /* responsive Media Query */
 /* Mobile Devices  */
