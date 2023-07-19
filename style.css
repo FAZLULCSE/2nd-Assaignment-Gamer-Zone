@@ -234,8 +234,18 @@ footer{
     margin-top: 20px;
     margin-right: 30px;
 }
+.social-media-icon {
+    padding: 5px;
+    margin-top: 30px;
+    margin-right: 20px;
+}
+.social-media-icon a{
+    padding: 5px;
+    margin-right: 20px;
+}
 .copyright{
-    padding: 20px;
+    padding: 5px;
+    margin-top: 20px;
 }
 
 
@@ -247,9 +257,10 @@ footer{
     body{
         width: 100%;
         padding: 20px;
-
     }
-
+    .bgc{
+        margin-bottom: 300px;
+    }
     .nav-container, .navpart-2, .banner-container-2, .vedio-container, .movie {
         flex-direction: column;
     }
@@ -261,10 +272,9 @@ footer{
     }
     .play-line{
         grid-template-columns: repeat(3, 1fr);
+        margin: 10px;
     }
   
-
-
  
 }
 
