@@ -216,7 +216,6 @@ header{
 }
     
 footer{
-
     background-color: #0B0223;
     text-align: center;
     color: #FFF;
@@ -235,20 +234,22 @@ footer{
     margin-right: 30px;
 }
 .social-media-icon {
-    padding: 5px;
+
     margin-top: 30px;
     margin-right: 20px;
 }
 .social-media-icon a{
     padding: 5px;
     margin-right: 20px;
+    font-size: 3rem;
+}
+.social-media-icon a:visited{
+    color: #FFF;
 }
 .copyright{
     padding: 5px;
     margin-top: 20px;
 }
-
-
 
 
 /* responsive Media Query */
@@ -280,5 +281,25 @@ footer{
 
 /* tablet */
 @media screen and (min-width:576px) and (max-width:922px) {
+    body{
+        width: 100%;
+        padding: 20px;
+    }
     
+    .bgc{
+        margin-bottom: 300px;
+    }
+    .nav-container, .navpart-2, .banner-container-2, .vedio-container, .movie {
+        flex-direction: column;
+    }
+    .banner-container, .movie{
+        flex-direction: column-reverse;
+    }
+    .image, .movie{
+        width: 100%;
+    }
+    .play-line{
+        grid-template-columns: repeat(3, 1fr);
+        margin: 10px;
+    }
 }
