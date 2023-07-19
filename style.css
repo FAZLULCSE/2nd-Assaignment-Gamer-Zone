@@ -44,6 +44,13 @@ header{
     display: flex;
     align-items: center;
 }
+.fa-brands{
+    font-size: 30px;
+} 
+.fa-youtube{
+    color: red;
+
+}
 .nav-ul > ul{
     display: flex;
 }
